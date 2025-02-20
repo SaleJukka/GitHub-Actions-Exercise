@@ -26,3 +26,5 @@ jobs:
         echo "Actor: ${{ github.actor }}"
         echo "Ref: ${{ github.ref }}"
         echo "SHA: ${{ github.sha }}"
+        echo "Workflow: ${{ github.workflow }}"
+        echo "Github Json: ${{ toJson(github) }}"
